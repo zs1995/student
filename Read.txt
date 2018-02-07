@@ -1,2 +1,1 @@
-hshshsh
-myname is qitaohu
+//文件配置读取文件
