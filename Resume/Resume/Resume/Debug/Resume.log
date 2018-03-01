@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/10/26 14:45:10。
+     1>项目“E:\myself code\Resume\Resume\Resume\Resume.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Resume.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Resume.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Resume.cpp ResumeA.cpp ResumeB.cpp
+         ResumeB.cpp
+     1>e:\myself code\resume\resume\resume\resumeb.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\myself code\resume\resume\resume\resumeb.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(105) : 参见“strcpy”的声明
+         ResumeA.cpp
+     1>e:\myself code\resume\resume\resume\resumea.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\myself code\resume\resume\resume\resumea.cpp(20): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\vc\include\string.h(105) : 参见“strcpy”的声明
+         Resume.cpp
+         main.cpp
+         正在生成代码...
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myself code\Resume\Resume\Debug\Resume.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Resume.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\myself code\Resume\Resume\Debug\Resume.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myself code\Resume\Resume\Debug\Resume.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Resume.obj
+         Debug\ResumeA.obj
+         Debug\ResumeB.obj
+         Resume.vcxproj -> E:\myself code\Resume\Resume\Debug\Resume.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\myself code\Resume\Resume\Debug\Resume.exe;#1" /manifest Debug\Resume.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Resume.unsuccessfulbuild”。
+         正在对“Debug\Resume.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\myself code\Resume\Resume\Resume\Resume.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.93

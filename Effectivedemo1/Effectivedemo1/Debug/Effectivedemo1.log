@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/10/20 11:50:09。
+     1>项目“E:\myself code\Effectivedemo1\Effectivedemo1\Effectivedemo1.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Effectivedemo1.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\Effectivedemo1.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myself code\Effectivedemo1\Debug\Effectivedemo1.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Effectivedemo1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\myself code\Effectivedemo1\Debug\Effectivedemo1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myself code\Effectivedemo1\Debug\Effectivedemo1.lib" /MACHINE:X86 Debug\main.obj
+         Effectivedemo1.vcxproj -> E:\myself code\Effectivedemo1\Debug\Effectivedemo1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\myself code\Effectivedemo1\Debug\Effectivedemo1.exe;#1" /manifest Debug\Effectivedemo1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Effectivedemo1.unsuccessfulbuild”。
+         正在对“Debug\Effectivedemo1.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\myself code\Effectivedemo1\Effectivedemo1\Effectivedemo1.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.55

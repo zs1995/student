@@ -1,0 +1,56 @@
+﻿生成启动时间为 2017/11/10 14:57:24。
+     1>项目“C:\Users\Jack_hu\Downloads\OicDemo\OicDemo\OicDemo.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\OicDemo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Release\OicDemo.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /I..\OCI\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\OicDemo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs\VC\bin\CL.exe /c /I..\OCI\Include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\OicDemo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataTable.cpp DBConnection.cpp DbPool.cpp OicDemo.cpp OicDemoDlg.cpp
+         DataTable.cpp
+         DBConnection.cpp
+         DbPool.cpp
+         OicDemo.cpp
+         OicDemoDlg.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0804" /IRelease\ /nologo /fo"Release\OicDemo.res" OicDemo.rc 
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jack_hu\Downloads\OicDemo\Release\OicDemo.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\OicDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Jack_hu\Downloads\OicDemo\Release\OicDemo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jack_hu\Downloads\OicDemo\Release\OicDemo.lib" /MACHINE:X86 Release\OicDemo.res
+         Release\DataTable.obj
+         Release\DBConnection.obj
+         Release\DbPool.obj
+         Release\OicDemo.obj
+         Release\OicDemoDlg.obj
+         Release\stdafx.obj
+     1>DataTable.obj : error LNK2001: 无法解析的外部符号 _OCIStmtRelease
+     1>DataTable.obj : error LNK2001: 无法解析的外部符号 _OCIStmtFetch
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCILogon2
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCILogoff
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIStmtPrepare2
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIStmtExecute
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIAttrGet
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIParamGet
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIDefineByPos
+     1>DBConnection.obj : error LNK2001: 无法解析的外部符号 _OCIBindByPos
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIEnvCreate
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIHandleAlloc
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadProcessInit
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadInit
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIConnectionPoolCreate
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIConnectionPoolDestroy
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIHandleFree
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadTerm
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadIdInit
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadHndInit
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadCreate
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadClose
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadIdDestroy
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIThreadHndDestroy
+     1>DbPool.obj : error LNK2001: 无法解析的外部符号 _OCIErrorGet
+     1>C:\Users\Jack_hu\Downloads\OicDemo\Release\OicDemo.exe : fatal error LNK1120: 25 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Jack_hu\Downloads\OicDemo\OicDemo\OicDemo.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.01

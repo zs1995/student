@@ -1,0 +1,10 @@
+create table odn_pda  (
+   pda_id             integer                         not null,
+   pda_name           varchar2(80)                    not null,
+   bureau_id          integer                         not null,
+   user_name               varchar2(80)                    not null,
+   telephone          varchar2(20)                    not null,
+   state              integer                         not null,
+   create_time        date                            not null,
+   assets_gs          integer not null,
+);

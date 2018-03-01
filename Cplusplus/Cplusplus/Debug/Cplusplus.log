@@ -1,0 +1,23 @@
+﻿生成启动时间为 2018/1/18 10:11:21。
+     1>项目“E:\myself code\Other\Cplusplus\Cplusplus\Cplusplus.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Cplusplus.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\Cplusplus.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Cplus.cpp Cplusplus.cpp main.cpp
+         main.cpp
+     1>e:\myself code\other\cplusplus\cplusplus\main.cpp(6): error C2662: “CPlus::SetFlag”: 不能将“this”指针从“const CPlus”转换为“CPlus &”
+                 转换丢失限定符
+     1>e:\myself code\other\cplusplus\cplusplus\main.cpp(7): error C2662: “CPlus::getCplus”: 不能将“this”指针从“const CPlus”转换为“CPlus &”
+                 转换丢失限定符
+     1>e:\myself code\other\cplusplus\cplusplus\main.cpp(8): error C2662: “CPlus::getCplus”: 不能将“this”指针从“const CPlus”转换为“CPlus &”
+                 转换丢失限定符
+         Cplusplus.cpp
+         Cplus.cpp
+         正在生成代码...
+     1>已完成生成项目“E:\myself code\Other\Cplusplus\Cplusplus\Cplusplus.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.59

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2017/11/10 14:59:17。
+     1>项目“C:\Users\Jack_hu\Downloads\OicDemo\OicDemo\OicDemo.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\OicDemo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\OicDemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /I..\OCI\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\OicDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\vs\VC\bin\CL.exe /c /I..\OCI\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataTable.cpp DBConnection.cpp DbPool.cpp
+         DbPool.cpp
+         DBConnection.cpp
+         DataTable.cpp
+         正在生成代码...
+         d:\vs\VC\bin\CL.exe /c /I..\OCI\Include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OicDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OicDemo.cpp OicDemoDlg.cpp
+         OicDemoDlg.cpp
+         OicDemo.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /l"0x0804" /IDebug\ /nologo /fo"Debug\OicDemo.res" OicDemo.rc 
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Jack_hu\Downloads\OicDemo\Debug\OicDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\OCI oci.lib Nafxcwd.lib libcmtd.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\Jack_hu\Downloads\OicDemo\Debug\OicDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Jack_hu\Downloads\OicDemo\Debug\OicDemo.lib" /MACHINE:X86 Debug\OicDemo.res
+         Debug\DataTable.obj
+         Debug\DBConnection.obj
+         Debug\DbPool.obj
+         Debug\OicDemo.obj
+         Debug\OicDemoDlg.obj
+         Debug\stdafx.obj
+         OicDemo.vcxproj -> C:\Users\Jack_hu\Downloads\OicDemo\Debug\OicDemo.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OicDemo.unsuccessfulbuild”。
+         正在对“Debug\OicDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\Jack_hu\Downloads\OicDemo\OicDemo\OicDemo.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.70

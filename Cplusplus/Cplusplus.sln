@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cplusplus", "Cplusplus\Cplusplus.vcxproj", "{09E21F95-229D-47A8-8220-47DAD9F21CFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09E21F95-229D-47A8-8220-47DAD9F21CFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09E21F95-229D-47A8-8220-47DAD9F21CFE}.Debug|Win32.Build.0 = Debug|Win32
+		{09E21F95-229D-47A8-8220-47DAD9F21CFE}.Release|Win32.ActiveCfg = Release|Win32
+		{09E21F95-229D-47A8-8220-47DAD9F21CFE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

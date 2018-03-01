@@ -1,0 +1,22 @@
+﻿生成启动时间为 2018/1/18 17:25:09。
+     1>项目“E:\myself code\Other\TcpServiceSocket\TcpServiceSocket\TcpServiceSocket.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\TcpServiceSocket.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\TcpServiceSocket.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\myself code\Other\TcpServiceSocket\Debug\TcpServiceSocket.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TcpServiceSocket.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\myself code\Other\TcpServiceSocket\Debug\TcpServiceSocket.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\myself code\Other\TcpServiceSocket\Debug\TcpServiceSocket.lib" /MACHINE:X86 Debug\main.obj
+         TcpServiceSocket.vcxproj -> E:\myself code\Other\TcpServiceSocket\Debug\TcpServiceSocket.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\myself code\Other\TcpServiceSocket\Debug\TcpServiceSocket.exe;#1" /manifest Debug\TcpServiceSocket.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TcpServiceSocket.unsuccessfulbuild”。
+         正在对“Debug\TcpServiceSocket.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\myself code\Other\TcpServiceSocket\TcpServiceSocket\TcpServiceSocket.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.17
